@@ -1,0 +1,162 @@
+.container{
+  margin: 0;
+  padding: 0;
+  background-color: #fcfbf7;
+}
+
+.why-parents-love {
+    
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to right, #fdd5d5, #ffe19c);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .why-parents-love h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+
+  .subtext {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    display: block;
+    width: 100%;
+  }
+  
+
+  
+  .join-btn {
+    margin-bottom: 40px;
+    background-color: #fcb900;
+    border-color: #fcb900;
+    color: #000;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .card-container p {
+    text-align: justify;
+  }
+  
+  .testimonial-card {
+    width: 300px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* transition: transform 0.5s ease; */
+    /* animation: fadeIn 0.8s ease; */
+  }
+  
+  .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .quote-icon{
+    margin-right: 200px;
+  }
+
+  .rate{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .profile-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+  }
+
+  .profile-pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .profile-name{
+    font-weight: 600;
+    font-size: 1rem;
+    color: #333;
+  }
+
+  /* @keyframes fadeIn {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  } */
+  
+
+/* For screens 780px and smaller */
+@media screen and (max-width: 780px) {
+  .why-parents-love h2 {
+    font-size: 2.2rem;
+  }
+
+  .subtext {
+    font-size: 1rem;
+  }
+
+  .testimonial-card {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .quote-icon {
+    margin-right: 0;
+    align-self: flex-start;
+  }
+}
+
+/* For screens 520px and smaller */
+@media screen and (max-width: 520px) {
+  .why-parents-love {
+    padding: 60px 15px;
+  }
+
+  .why-parents-love h2 {
+    font-size: 1.8rem;
+  }
+
+  .subtext {
+    font-size: 0.95rem;
+  }
+
+  .join-btn {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+
+  .profile-name {
+    font-size: 0.95rem;
+  }
+
+  .card-container {
+    gap: 10px;
+  }
+
+  .testimonial-card {
+    padding: 10px;
+  }
+}

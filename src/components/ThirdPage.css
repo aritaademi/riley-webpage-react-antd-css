@@ -1,0 +1,91 @@
+.giftcard-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    background-color: #f5f3ff;
+  }
+  
+  .text-content {
+    max-width: 50%;
+  }
+  
+  .text-content h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #2e1e4d;
+  }
+  
+  .text-content p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: #4a4a4a;
+  }
+  
+  .giftcard-button {
+    margin-top: 2rem;
+    padding: 12px 24px;
+    font-size: 1rem;
+    background-color: #6e40c9;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .giftcard-button:hover {
+    background-color: #5a2ea6;
+  }
+  
+  .card-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+  
+
+/* For screens 780px and smaller */
+@media screen and (max-width: 780px) {
+  .giftcard-container {
+    flex-direction: column;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .text-content {
+    max-width: 100%;
+  }
+
+  .text-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .text-content p {
+    font-size: 1rem;
+  }
+
+  .giftcard-button {
+    width: 100%;
+  }
+
+  .card-image {
+    margin-top: 30px;
+  }
+}
+
+/* For screens 520px and smaller */
+@media screen and (max-width: 520px) {
+  .text-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .text-content p {
+    font-size: 0.95rem;
+  }
+
+  .giftcard-button {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+}

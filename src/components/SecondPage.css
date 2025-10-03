@@ -1,0 +1,77 @@
+
+.second-page {
+    padding: 2rem;
+    background-color: #fcfbf7;
+  }
+  
+  .feature-card {
+    border-radius: 16px;
+    margin-bottom: 24px;
+    min-height: 220px;
+  }
+  
+  .card-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 1rem;
+  }
+  
+  .phone-image {
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+    margin-top: -55px;
+  }
+  
+  .phone-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  @media screen and (max-width: 780px) {
+    .feature-card {
+      min-height: 200px;
+      padding: 1rem;
+      font-size: 10px;
+    }
+  
+    .card-icon {
+      width: 25px;
+      height: 25px;
+    }
+  
+    .phone-image {
+      width: 500px;
+      margin-top: 0;
+    }
+  }
+  
+  @media screen and (max-width: 520px) {
+    .second-page {
+      padding: 1rem;
+    }
+  
+    .feature-card {
+      min-height: auto;
+      padding: 1rem;
+      margin-bottom: 16px;
+    }
+  
+    .card-icon {
+      width: 30px;
+      height: 30px;
+      margin-bottom: 0.75rem;
+    }
+  
+    .phone-image {
+      width: 100%;
+      margin-top: 1rem;
+    }
+  
+    .phone-col {
+      margin-bottom: 2rem;
+    }
+  }
+  

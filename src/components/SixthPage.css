@@ -1,0 +1,141 @@
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fcfbf7
+}
+
+.faq-section {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #fcfbf7;
+}
+
+.faq-section h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.faq-section p{
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+}
+  
+.faq-item {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background: #ffffff;
+    transition: all 0.3s ease;
+}
+  
+.faq-question {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.05rem;
+    background: #f5f7ff;
+    color: black;
+    border-radius: 10px;
+}
+  
+.faq-answer {
+    padding: 16px;
+    background: #fff;
+    font-size: 0.95rem;
+    color: #555;
+    border-top: 1px solid #eee;
+}
+  
+.faq-icon {
+    font-size: 1.4rem;
+    user-select: none;
+}
+
+.ant-collapse {
+  background-color: #ffffff;
+  border: none;
+}
+
+.ant-collapse-item {
+  border-radius: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+}
+
+.ant-collapse-header {
+  background: #f5f7ff;
+  padding: 16px 24px;
+  font-size: 1.05rem;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ant-collapse-content {
+  background: #fff;
+}
+
+.ant-collapse-content-box {
+  padding: 16px 24px;
+  font-size: 0.95rem;
+  color: #555;
+  font-family: Arial, sans-serif;
+}
+  
+
+/* Media query for screen width 780px */
+@media (max-width: 780px) {
+  .faq-section {
+    padding: 30px 15px;
+  }
+
+  .faq-section h2 {
+    font-size: 40px;
+  }
+
+  .ant-collapse-header {
+    font-size: 1rem;
+    padding: 14px 20px;
+  }
+
+  .ant-collapse-content-box {
+    font-size: 0.9rem;
+    padding: 14px 20px;
+  }
+}
+
+@media (max-width: 520px) {
+  .faq-section {
+    padding: 20px 10px;
+  }
+
+  .faq-section h2 {
+    font-size: 30px;
+  }
+
+  .faq-section p {
+    font-size: 0.95rem;
+  }
+
+  .ant-collapse-header {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 0.95rem;
+  }
+
+  .ant-collapse-content-box {
+    font-size: 0.85rem;
+  }
+}
